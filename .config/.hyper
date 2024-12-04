@@ -8,13 +8,13 @@ module.exports = {
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',
         // default font size in pixels for all tabs
-        fontSize: 14,
+        fontSize: 20,
         // font family with optional fallbacks
         fontFamily: 'Geist Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
-        fontWeightBold: 'bold',
+        fontWeightBold: 'normal',
         // line height as a relative unit
         lineHeight: 1,
         // letter spacing as a relative unit
@@ -24,9 +24,9 @@ module.exports = {
         // terminal text color under BLOCK cursor
         cursorAccentColor: '#000',
         // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
-        cursorShape: 'BLOCK',
+        cursorShape: 'UNDERLINE',
         // set to `true` (without backticks and without quotes) for blinking cursor
-        cursorBlink: false,
+        cursorBlink: true,
         // color of the text
         foregroundColor: '#fff',
         // terminal background color
@@ -41,7 +41,7 @@ module.exports = {
         // custom CSS to embed in the terminal window
         termCSS: '',
         // set custom startup directory (must be an absolute path)
-        workingDirectory: '',
+        workingDirectory: 'C:',
         // if you're using a Linux setup which show native menus, set to false
         // default: `true` on Linux, `true` on Windows, ignored on macOS
         showHamburgerMenu: '',
@@ -92,10 +92,10 @@ module.exports = {
         //
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
-        shell: '',
+        shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
-        shellArgs: ['--login'],
+        shellArgs: ['--login', '-i'],
         // for environment variables
         env: {},
         // Supported Options:
@@ -122,7 +122,7 @@ module.exports = {
         // todo: does not pick up config changes automatically, need to restart terminal :/
         webLinksActivationKey: '',
         // if `false` (without backticks and without quotes), Hyper will use ligatures provided by some fonts
-        disableLigatures: true,
+        disableLigatures: false,
         // set to true to disable auto updates
         disableAutoUpdates: false,
         // set to true to enable screen reading apps (like NVDA) to read the contents of the terminal
