@@ -3,8 +3,8 @@ module.exports = {
     config: {
         theme: "catppuccin-mocha",
         updateChannel: 'stable',
-        fontSize: 20,
-        fontFamily: 'Geist Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontSize: 22,
+        fontFamily: 'Geist Mono, "Lucida Console", monospace',
         fontWeight: 'normal',
         fontWeightBold: 'normal',
         lineHeight: 1,
@@ -45,10 +45,7 @@ module.exports = {
         },
         shell: 'D:\\Program Files\\Git\\bin\\bash.exe',
         shellArgs: ['--login', '-i'],
-        env: {
-            MSYS2_PS1: '🐱 \\[\\e[36m\\]\\u\\[\\e[0m\\]@\\[\\e[32m\\]\\h\\[\\e[0m\\]:\\[\\e[33m\\]\\w\\[\\e[0m\\]\\$ ',
-            PS1: '🐱 \\[\\e[36m\\]\\u\\[\\e[0m\\]@\\[\\e[32m\\]\\h\\[\\e[0m\\]:\\[\\e[33m\\]\\w\\[\\e[0m\\]\\$ '
-        },
+        env: {},
         bell: 'SOUND',
         copyOnSelect: false,
         defaultSSHApp: true,
