@@ -8,7 +8,7 @@ if test -f ~/.config/git/git-prompt.sh
 then
     . ~/.config/git/git-prompt.sh
 else
-    PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]' 
+    PS1='\[\033]0;🔴🟡🟢\007\]'
     PS1="$PS1"'\n'                 
     PS1="$PS1"'\[\033[95m\]'       
     PS1="$PS1"'\u '             	

@@ -1,0 +1,27 @@
+# productivity
+cask "alfred" 
+cask "cleanshot" 
+cask "1password" 
+cask "tailscale" 
+cask "rectangle" 
+
+# design & development
+cask "visual-studio-code" 
+cask "hyper" 
+brew "spaceship" 
+brew "node" 
+brew "gh" 
+cask "postman" 
+tap "homebrew/cask-fonts" 
+cask "font-inconsolata-nerd-font" 
+cask "figma" 
+
+# browsers
+cask "firefox" 
+cask "google-chrome" 
+cask "arc" 
+
+# aux and periphery
+cask "telegram" 
+cask "discord" 
+cask "spotify" 
