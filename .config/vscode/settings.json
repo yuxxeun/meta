@@ -38,15 +38,14 @@
   
     /** ------------ Terminal Configurations ------------ **/
     "terminal.integrated.defaultProfile.osx": "bash",
-    "terminal.integrated.fontFamily": "'MesloLGS NF', 'Hack Nerd Font', Geist Mono",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Geist Mono",
+    "terminal.integrated.fontSize": 20,
     "terminal.integrated.enableMultiLinePasteWarning": "always",
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.cursorBlinking": true,
   
     /** ------------ Additional Configurations ------------ **/
     "vscode_custom_css.imports": [
-        // replace with the right path
       "./style.css",
       "./script.js"
     ],
