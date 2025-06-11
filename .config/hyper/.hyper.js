@@ -23,6 +23,12 @@ module.exports = {
         showHamburgerMenu: '',
         showWindowControls: '',
         padding: '12px 14px',
+        hyperWindowSize: {
+            width: 1300,
+            height: 480,
+            startX: 70,
+            startY: 50
+        },
         colors: {
             black: '#000000',
             red: '#C51E14',
@@ -58,7 +64,7 @@ module.exports = {
         screenReaderMode: false,
         preserveCWD: true,
     },
-    plugins: ["@catppuccin/hyper#1.0.8"],
+    plugins: ["@catppuccin/hyper#1.0.8", "hyper-window-size"],
     localPlugins: [],
     keymaps: {
     },
